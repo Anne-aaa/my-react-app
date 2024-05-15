@@ -1,9 +1,26 @@
 {
   "extends": [
     "eslint:recommended",
-    "airbnb-base"
+    "airbnb-base",
+    "plugin:react/recommended",
+    "plugin:react/jsx-runtime",
+    "plugin:react-hooks/recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier"
   ],
   "plugins": [
-    "import"
-  ]
+    "import",
+    "@typescript-eslint",
+    "react",
+    "prettier"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "scripts": {
+    "lint": "eslint --fix --quiet --ext .ts,.tsx src",
+    "prepare": "husky install"
+  },
+  "rules": {
+    "prettier/prettier": "error"
+  }
 }
