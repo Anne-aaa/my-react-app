@@ -1,4 +1,3 @@
-// src/pages/ProductListPage.tsx
 import React from 'react';
 import ProductCard from '../../components/ProductCard/ProductCard.jsx';
 

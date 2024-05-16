@@ -38,7 +38,7 @@ my-react-app/
 │   ├── services/
 │   │   ├── productService.js
 │   │   └── ...
-│   ├── App.jsx
+│   ├── App.tsx
 │   ├── index.js
 │   └── ...
 ├── .gitignore
@@ -56,6 +56,11 @@ test
 ```shell
 pnpm install --save-dev jest @testing-library/react @testing-library/jest-dom
 pnpm install --save-dev jest-mock-extended
+```
+route
+```shell
+pnpm install react-router-dom
+
 ```
 
 
