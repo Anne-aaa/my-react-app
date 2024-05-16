@@ -1,9 +1,6 @@
-import { useState } from 'react'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <div>
@@ -12,18 +9,16 @@ function App() {
         <a href="https://react.dev" target="_blank">
         </a>
       </div>
-      <h1>Vite + React</h1>
+      <h1>Shopping Center</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
+        <button >
+          click to see the products
         </button>
         <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
+            Shopping Center brings together millions of products, covering various categories, including electronic products, household items, clothing accessories
+            Decorations, fresh food, etc. .
         </p>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
   )
 }
