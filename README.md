@@ -59,8 +59,12 @@ pnpm install --save-dev jest-mock-extended
 ```
 route
 ```shell
-pnpm install react-router-dom
+pnpm instalrrl react-router-dom
+```
 
+userEvent
+```shell
+npm install --save-dev @testing-library/user-event
 ```
 
 
